@@ -1,0 +1,14 @@
+use Diamante_azul;
+
+
+Select *  Cliente,
+
+Select *  Empleado;
+
+Select *  Producto,
+
+Select *  Cargo;
+
+Select *  Factura_Venta,
+
+Select *  DETALLE_FACTURA_VENTA ;
