@@ -4,20 +4,24 @@ Use Diamante_Azul;
 Create table Cliente 
 (idCliente  int primary key not null,
 nomCliente varchar (60) not null,
-TipoDocumento bigint not null,
-Direccion varchar (60) not null,
-telefonocliente bigint not null );
+Numdocumento int not null,
+direccion Varchar (100) not null,
+telefonocliente bigint not null,
+Contracliente varchar(60) not null
+ );
 
 Create table Empleado
 (idEmpleado int primary key not null,
 NombreEmple varchar(60) not null,
-tipoDocumento varchar(60) not null,
+Numdocumento int not null,
 Telefonoemple bigint not null,
 emailemple varchar (100 )not null);
 
+
 Create table cargo
 (idcargo int auto_increment key not null,
-nombreusu varchar(60) not null,
+nombreusu varchar (60) not null,
+correousu varchar(100) not null,
 contra varchar(60) not null,
 rol int null);
 
